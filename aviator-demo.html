@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aviator Demo</title>
+  <style>
+    body { font-family: Arial; text-align: center; background: #111; color: #fff; }
+    .plane { font-size: 100px; margin: 20px; animation: fly 3s infinite linear; }
+    @keyframes fly {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background: #e60000;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Aviator Game (Demo Only)</h1>
+  <div class="plane">✈️</div>
+  <button onclick="alert('Plane took off! No betting involved 🚫💰')">Launch</button>
+</body>
+</html>
